@@ -27,6 +27,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{Name: " + name + " Age: " + age + "}\n";
+        return "Person || Name: " + name + " Age: " + age + "\n";
     }
 }

@@ -25,6 +25,16 @@ public class Main {
         }
 
         System.out.println(queue);
+        System.out.println("Front: " + queue.front());
+        System.out.println("Rear: " + queue.rear());
+
+        System.out.println("Dequeue");
+        queue.dequeue();
+        System.out.println(queue);
+
+        System.out.println("Front: " + queue.front());
+        System.out.println("Rear: " + queue.rear());
+
         System.out.println("Empty? " + queue.isEmpty());
         System.out.println("Clean Queue");
         queue.clean();

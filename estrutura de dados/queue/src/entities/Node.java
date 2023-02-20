@@ -1,11 +1,11 @@
 package entities;
 
-public class Node {
+public class Node<T> {
 
-    private Object value;
-    private Node next;
+    private T value;
+    private Node<T> next;
 
-    public Node(Object value) {
+    public Node(T value) {
         this.value = value;
         this.next = null;
     }
@@ -14,20 +14,20 @@ public class Node {
         return value;
     }
 
-    public void setValue(Object value) {
+    public void setValue(T value) {
         this.value = value;
     }
 
-    public Node getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 
     @Override
     public String toString() {
-        return "Node{value=" + value + "}\n";
+        return "Node value=" + value + "\n";
     }
 }

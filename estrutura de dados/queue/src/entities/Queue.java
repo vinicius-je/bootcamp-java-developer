@@ -46,6 +46,17 @@ public class Queue {
         }
     }
 
+    public Node front(){
+        return this.first;
+    }
+    public Node rear(){
+        return this.last;
+    }
+
+    public Integer getSize(){
+        return this.size;
+    }
+
     @Override
     public String toString() {
         String str = "";
