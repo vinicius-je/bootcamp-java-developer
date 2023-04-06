@@ -1,4 +1,4 @@
-package padroes;
+package padroes.singleton;
 
 //Objetivo: garantir que a instância da classe seja criada somente quando necessário
 public class SingletonLazy {

@@ -1,6 +1,6 @@
-package padroes;
+package padroes.singleton;
 
-//Padrão comum em projetos que necessitam a garantia da criação
+//Objetivo: Padrão comum em projetos que necessitam a garantia da criação
 //de uma instância em ambientes multitread [variação do padrão Singleton]
 public class SingletonLazyHolder {
 
