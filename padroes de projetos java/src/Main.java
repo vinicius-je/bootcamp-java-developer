@@ -1,3 +1,4 @@
+import padroes.facade.Facade;
 import padroes.singleton.SingletonEager;
 import padroes.singleton.SingletonLazy;
 import padroes.singleton.SingletonLazyHolder;
@@ -27,5 +28,9 @@ public class Main {
         Left left = new Left();
         car.setDirection(left);
         car.moveTo();
+
+        //Testando o padrão Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("Venilton", "14801788");
     }
 }
